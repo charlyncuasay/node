@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-image: url('desktop-wallpaper-ocean-tumblr-dark-dark-water-background-sad-water.jpg');
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.outside p {
+    font-size: 23px;
+    text-transform: uppercase;
+    margin-top: 150px;
+    text-align: center;
+    letter-spacing: 6px;
+    color: #000046;
+}
+.inside h1{
+    font-size: 60px;
+    line-height: 60px;
+}
+
+.music{
+    font-size: small;
+    font-style: italic;
+    width: 150;
+    height: 150;
+    margin: auto;
+}
+
+
+hr {
+    width: 80%;
+    border: 1px solid white;
+    margin: 10px auto;
+}
+.video{
+    font-size: large;
+    font-style: italic;
+    color: white;
+    width: 200;
+    height: 200;
+    margin: auto;
+}
+                     
+/*about page*/
+.container2 {
+    display: flex;
+    flex-direction: column; 
+}
+
+.myclass2 {
+    color: white; 
+    margin-bottom: 10px; 
+    text-decoration: none; 
+}
