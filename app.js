@@ -35,7 +35,6 @@ const server = http.createServer((req, res) => {
             break;
     }
 
-    // Read the appropriate HTML file and send it as a response
     fs.readFile(path, (err, data) => {
         if (err) {
             console.log(err);
@@ -47,7 +46,6 @@ const server = http.createServer((req, res) => {
     });
 });
 
-// Listen on port 3000
 server.listen(3000, 'localhost', () => {
     console.log('Listening for requests on port 3000');
 });
